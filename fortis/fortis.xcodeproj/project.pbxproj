@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8595B3F6273E7A900048337B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8595B3F5273E7A900048337B /* AppDelegate.swift */; };
+		8595B3F8273E7A900048337B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8595B3F7273E7A900048337B /* SceneDelegate.swift */; };
+		8595B3FA273E7A900048337B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8595B3F9273E7A900048337B /* ViewController.swift */; };
+		8595B3FD273E7A900048337B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8595B3FB273E7A900048337B /* Main.storyboard */; };
+		8595B400273E7A900048337B /* fortis.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8595B3FE273E7A900048337B /* fortis.xcdatamodeld */; };
+		8595B402273E7A940048337B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8595B401273E7A940048337B /* Assets.xcassets */; };
+		8595B405273E7A940048337B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8595B403273E7A940048337B /* LaunchScreen.storyboard */; };
+		8595B40E273E7AFB0048337B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8595B40D273E7AFB0048337B /* HomeViewController.swift */; };
+		8595B410273E7B480048337B /* HomeCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8595B40F273E7B480048337B /* HomeCalendar.swift */; };
+		8595B412273E7B560048337B /* HomeMission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8595B411273E7B560048337B /* HomeMission.swift */; };
+		8595B414273E7B600048337B /* HomeLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8595B413273E7B600048337B /* HomeLevel.swift */; };
+		8595B416273E7B780048337B /* simpleAnchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8595B415273E7B780048337B /* simpleAnchor.swift */; };
+		8595B419273E7BE90048337B /* DiaryEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8595B418273E7BE90048337B /* DiaryEntryViewController.swift */; };
+		8595B41B273E7C070048337B /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8595B41A273E7C070048337B /* CategoryTableViewCell.swift */; };
+		8595B41E273E7C4A0048337B /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8595B41D273E7C4A0048337B /* CalendarViewController.swift */; };
+		8595B420273E7C620048337B /* CalendarMonthStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8595B41F273E7C620048337B /* CalendarMonthStack.swift */; };
+		8595B422273E7C700048337B /* CalendarDateInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8595B421273E7C700048337B /* CalendarDateInfo.swift */; };
+		8595B424273E7C7B0048337B /* CalendarDatesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8595B423273E7C7A0048337B /* CalendarDatesList.swift */; };
+		8595B426273E7CD00048337B /* HelpingExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8595B425273E7CD00048337B /* HelpingExtensions.swift */; };
+		8595B428273E7D640048337B /* Dates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8595B427273E7D640048337B /* Dates.swift */; };
+		8595B42B273E7D980048337B /* LevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8595B42A273E7D980048337B /* LevelViewController.swift */; };
+		8595B42E273E7DB60048337B /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8595B42D273E7DB60048337B /* CollectionViewController.swift */; };
+		8595B431273E81D30048337B /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8595B430273E81D30048337B /* ReviewViewController.swift */; };
+		8595B4332741832B0048337B /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8595B4322741832B0048337B /* SettingViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8595B3F2273E7A900048337B /* fortis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fortis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8595B3F5273E7A900048337B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8595B3F7273E7A900048337B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8595B3F9273E7A900048337B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8595B3FC273E7A900048337B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8595B3FF273E7A900048337B /* fortis.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = fortis.xcdatamodel; sourceTree = "<group>"; };
+		8595B401273E7A940048337B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8595B404273E7A940048337B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8595B406273E7A940048337B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8595B40D273E7AFB0048337B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8595B40F273E7B480048337B /* HomeCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCalendar.swift; sourceTree = "<group>"; };
+		8595B411273E7B560048337B /* HomeMission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMission.swift; sourceTree = "<group>"; };
+		8595B413273E7B600048337B /* HomeLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLevel.swift; sourceTree = "<group>"; };
+		8595B415273E7B780048337B /* simpleAnchor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simpleAnchor.swift; sourceTree = "<group>"; };
+		8595B418273E7BE90048337B /* DiaryEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryEntryViewController.swift; sourceTree = "<group>"; };
+		8595B41A273E7C070048337B /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
+		8595B41D273E7C4A0048337B /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		8595B41F273E7C620048337B /* CalendarMonthStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarMonthStack.swift; sourceTree = "<group>"; };
+		8595B421273E7C700048337B /* CalendarDateInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDateInfo.swift; sourceTree = "<group>"; };
+		8595B423273E7C7A0048337B /* CalendarDatesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDatesList.swift; sourceTree = "<group>"; };
+		8595B425273E7CD00048337B /* HelpingExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpingExtensions.swift; sourceTree = "<group>"; };
+		8595B427273E7D640048337B /* Dates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dates.swift; sourceTree = "<group>"; };
+		8595B42A273E7D980048337B /* LevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelViewController.swift; sourceTree = "<group>"; };
+		8595B42D273E7DB60048337B /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		8595B430273E81D30048337B /* ReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
+		8595B4322741832B0048337B /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8595B3EF273E7A900048337B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8595B3E9273E7A900048337B = {
+			isa = PBXGroup;
+			children = (
+				8595B3F4273E7A900048337B /* fortis */,
+				8595B3F3273E7A900048337B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8595B3F3273E7A900048337B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8595B3F2273E7A900048337B /* fortis.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8595B3F4273E7A900048337B /* fortis */ = {
+			isa = PBXGroup;
+			children = (
+				8595B40C273E7ADD0048337B /* Home */,
+				8595B41C273E7C2F0048337B /* Calendar */,
+				8595B429273E7D890048337B /* Level */,
+				8595B42C273E7DA40048337B /* Collection */,
+				8595B417273E7BBF0048337B /* Tracking */,
+				8595B42F273E81C10048337B /* Review */,
+				8595B415273E7B780048337B /* simpleAnchor.swift */,
+				8595B425273E7CD00048337B /* HelpingExtensions.swift */,
+				8595B427273E7D640048337B /* Dates.swift */,
+				8595B4322741832B0048337B /* SettingViewController.swift */,
+				8595B3F5273E7A900048337B /* AppDelegate.swift */,
+				8595B3F7273E7A900048337B /* SceneDelegate.swift */,
+				8595B3F9273E7A900048337B /* ViewController.swift */,
+				8595B3FB273E7A900048337B /* Main.storyboard */,
+				8595B401273E7A940048337B /* Assets.xcassets */,
+				8595B403273E7A940048337B /* LaunchScreen.storyboard */,
+				8595B406273E7A940048337B /* Info.plist */,
+				8595B3FE273E7A900048337B /* fortis.xcdatamodeld */,
+			);
+			path = fortis;
+			sourceTree = "<group>";
+		};
+		8595B40C273E7ADD0048337B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8595B40D273E7AFB0048337B /* HomeViewController.swift */,
+				8595B40F273E7B480048337B /* HomeCalendar.swift */,
+				8595B413273E7B600048337B /* HomeLevel.swift */,
+				8595B411273E7B560048337B /* HomeMission.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8595B417273E7BBF0048337B /* Tracking */ = {
+			isa = PBXGroup;
+			children = (
+				8595B418273E7BE90048337B /* DiaryEntryViewController.swift */,
+				8595B41A273E7C070048337B /* CategoryTableViewCell.swift */,
+			);
+			path = Tracking;
+			sourceTree = "<group>";
+		};
+		8595B41C273E7C2F0048337B /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				8595B41D273E7C4A0048337B /* CalendarViewController.swift */,
+				8595B41F273E7C620048337B /* CalendarMonthStack.swift */,
+				8595B421273E7C700048337B /* CalendarDateInfo.swift */,
+				8595B423273E7C7A0048337B /* CalendarDatesList.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		8595B429273E7D890048337B /* Level */ = {
+			isa = PBXGroup;
+			children = (
+				8595B42A273E7D980048337B /* LevelViewController.swift */,
+			);
+			path = Level;
+			sourceTree = "<group>";
+		};
+		8595B42C273E7DA40048337B /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				8595B42D273E7DB60048337B /* CollectionViewController.swift */,
+			);
+			path = Collection;
+			sourceTree = "<group>";
+		};
+		8595B42F273E81C10048337B /* Review */ = {
+			isa = PBXGroup;
+			children = (
+				8595B430273E81D30048337B /* ReviewViewController.swift */,
+			);
+			path = Review;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8595B3F1273E7A900048337B /* fortis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8595B409273E7A940048337B /* Build configuration list for PBXNativeTarget "fortis" */;
+			buildPhases = (
+				8595B3EE273E7A900048337B /* Sources */,
+				8595B3EF273E7A900048337B /* Frameworks */,
+				8595B3F0273E7A900048337B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fortis;
+			productName = fortis;
+			productReference = 8595B3F2273E7A900048337B /* fortis.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8595B3EA273E7A900048337B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					8595B3F1273E7A900048337B = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 8595B3ED273E7A900048337B /* Build configuration list for PBXProject "fortis" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8595B3E9273E7A900048337B;
+			productRefGroup = 8595B3F3273E7A900048337B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8595B3F1273E7A900048337B /* fortis */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8595B3F0273E7A900048337B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8595B405273E7A940048337B /* LaunchScreen.storyboard in Resources */,
+				8595B402273E7A940048337B /* Assets.xcassets in Resources */,
+				8595B3FD273E7A900048337B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8595B3EE273E7A900048337B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8595B41E273E7C4A0048337B /* CalendarViewController.swift in Sources */,
+				8595B428273E7D640048337B /* Dates.swift in Sources */,
+				8595B431273E81D30048337B /* ReviewViewController.swift in Sources */,
+				8595B416273E7B780048337B /* simpleAnchor.swift in Sources */,
+				8595B42B273E7D980048337B /* LevelViewController.swift in Sources */,
+				8595B4332741832B0048337B /* SettingViewController.swift in Sources */,
+				8595B419273E7BE90048337B /* DiaryEntryViewController.swift in Sources */,
+				8595B424273E7C7B0048337B /* CalendarDatesList.swift in Sources */,
+				8595B40E273E7AFB0048337B /* HomeViewController.swift in Sources */,
+				8595B3FA273E7A900048337B /* ViewController.swift in Sources */,
+				8595B410273E7B480048337B /* HomeCalendar.swift in Sources */,
+				8595B414273E7B600048337B /* HomeLevel.swift in Sources */,
+				8595B422273E7C700048337B /* CalendarDateInfo.swift in Sources */,
+				8595B426273E7CD00048337B /* HelpingExtensions.swift in Sources */,
+				8595B42E273E7DB60048337B /* CollectionViewController.swift in Sources */,
+				8595B41B273E7C070048337B /* CategoryTableViewCell.swift in Sources */,
+				8595B412273E7B560048337B /* HomeMission.swift in Sources */,
+				8595B3F6273E7A900048337B /* AppDelegate.swift in Sources */,
+				8595B420273E7C620048337B /* CalendarMonthStack.swift in Sources */,
+				8595B400273E7A900048337B /* fortis.xcdatamodeld in Sources */,
+				8595B3F8273E7A900048337B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8595B3FB273E7A900048337B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8595B3FC273E7A900048337B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8595B403273E7A940048337B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8595B404273E7A940048337B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8595B407273E7A940048337B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8595B408273E7A940048337B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8595B40A273E7A940048337B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HBLK9GT7DU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = fortis/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = melisa.fortis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8595B40B273E7A940048337B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HBLK9GT7DU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = fortis/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = melisa.fortis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8595B3ED273E7A900048337B /* Build configuration list for PBXProject "fortis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8595B407273E7A940048337B /* Debug */,
+				8595B408273E7A940048337B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8595B409273E7A940048337B /* Build configuration list for PBXNativeTarget "fortis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8595B40A273E7A940048337B /* Debug */,
+				8595B40B273E7A940048337B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8595B3FE273E7A900048337B /* fortis.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8595B3FF273E7A900048337B /* fortis.xcdatamodel */,
+			);
+			currentVersion = 8595B3FF273E7A900048337B /* fortis.xcdatamodel */;
+			path = fortis.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8595B3EA273E7A900048337B /* Project object */;
+}
